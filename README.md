@@ -1,93 +1,99 @@
-````md
+````md id="r4tx4d"
 # ☕ Cafe Management System
 
-<p align="center">
-  <img src="https://laravel.com/img/logomark.min.svg" width="120" alt="Laravel Logo">
-</p>
+<div align="center">
 
-<h3 align="center">
-  🚀 Website Quản Lý Quán Cafe Xây Dựng Bằng Laravel
-</h3>
+# 🚀 WEBSITE QUẢN LÝ QUÁN CAFE
 
-<p align="center">
-  Hệ thống hỗ trợ quản lý hoạt động quán cafe hiện đại, trực quan và tối ưu hiệu suất.
-</p>
+### Xây dựng bằng Laravel Framework
+
+<br>
+
+<img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" width="120">
+
+<br><br>
+
+![Laravel](https://img.shields.io/badge/Laravel-Framework-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-Backend-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-UI-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)
+
+</div>
 
 ---
 
 # 📌 Giới Thiệu Dự Án
 
-Cafe Management System là website quản lý quán cafe được xây dựng nhằm hỗ trợ:
+Cafe Management System là website hỗ trợ quản lý quán cafe hiện đại giúp tối ưu quy trình vận hành và quản lý kinh doanh.
 
-✨ Quản lý sản phẩm  
-✨ Quản lý menu đồ uống  
-✨ Quản lý đơn hàng  
-✨ Quản lý bàn  
-✨ Quản lý khách hàng  
-✨ Quản lý nhân viên  
-✨ Thống kê doanh thu  
-✨ Phân quyền quản trị  
+Hệ thống hỗ trợ:
 
-Hệ thống được phát triển theo mô hình **MVC (Model - View - Controller)** sử dụng framework Laravel kết hợp MySQL giúp dễ dàng mở rộng và bảo trì.
+- ☕ Quản lý menu đồ uống
+- 🧾 Quản lý đơn hàng
+- 🪑 Quản lý bàn
+- 👨‍💼 Quản lý nhân viên
+- 👥 Quản lý khách hàng
+- 📊 Thống kê doanh thu
+- 🔐 Phân quyền quản trị
+
+Dự án được phát triển theo mô hình:
+
+```bash
+MVC (Model - View - Controller)
+````
+
+Sử dụng framework Laravel kết hợp MySQL giúp hệ thống dễ mở rộng và bảo trì.
 
 ---
 
 # 🛠️ Công Nghệ Sử Dụng
 
-<p align="center">
-
-<img src="https://skillicons.dev/icons?i=laravel,php,mysql,bootstrap,html,css,js,git,github,vscode" />
-
-</p>
-
-| Công nghệ | Mô tả |
-|---|---|
-| Laravel | PHP Framework |
-| MySQL | Hệ quản trị cơ sở dữ liệu |
-| Bootstrap | Thiết kế giao diện |
-| JavaScript | Xử lý tương tác |
-| Git & GitHub | Quản lý source code |
+| Công nghệ    | Vai trò               |
+| ------------ | --------------------- |
+| Laravel      | Framework Backend     |
+| PHP          | Xử lý logic hệ thống  |
+| MySQL        | Quản lý cơ sở dữ liệu |
+| Bootstrap    | Thiết kế giao diện    |
+| JavaScript   | Tương tác người dùng  |
+| Git & GitHub | Quản lý source code   |
 
 ---
 
 # ⚙️ Chức Năng Chính
 
 ## 👨‍💼 Quản Trị Hệ Thống
-- Đăng nhập / đăng xuất
-- Phân quyền người dùng
-- Quản lý tài khoản nhân viên
+
+* Đăng nhập / đăng xuất
+* Phân quyền tài khoản
+* Quản lý nhân viên
 
 ## 🍹 Quản Lý Sản Phẩm
-- Thêm / sửa / xóa sản phẩm
-- Quản lý giá bán
-- Quản lý hình ảnh sản phẩm
-- Quản lý danh mục
+
+* Thêm / sửa / xóa sản phẩm
+* Quản lý danh mục
+* Upload hình ảnh sản phẩm
 
 ## 🪑 Quản Lý Bàn
-- Theo dõi trạng thái bàn
-- Đặt bàn
-- Chuyển bàn
+
+* Theo dõi trạng thái bàn
+* Đặt bàn
+* Chuyển bàn
 
 ## 🧾 Quản Lý Đơn Hàng
-- Tạo hóa đơn
-- Thanh toán đơn hàng
-- Theo dõi lịch sử giao dịch
+
+* Tạo hóa đơn
+* Thanh toán đơn hàng
+* Quản lý lịch sử giao dịch
 
 ## 📊 Thống Kê Doanh Thu
-- Doanh thu theo ngày / tháng / năm
-- Thống kê sản phẩm bán chạy
-- Báo cáo doanh thu
+
+* Doanh thu theo ngày / tháng / năm
+* Thống kê sản phẩm bán chạy
 
 ---
 
 # 🏗️ Kiến Trúc Hệ Thống
-
-Dự án được xây dựng theo mô hình:
-
-```bash
-MVC (Model - View - Controller)
-Client - Server Architecture
-````
 
 ## 📂 Cấu Trúc Thư Mục
 
@@ -175,11 +181,11 @@ php artisan serve
 
 # 🌟 Điểm Nổi Bật
 
-✔️ Giao diện quản trị trực quan
-✔️ Dễ dàng mở rộng tính năng
+✔️ Giao diện trực quan
 ✔️ Chuẩn mô hình MVC
-✔️ Quản lý dữ liệu hiệu quả
-✔️ Tối ưu trải nghiệm người dùng
+✔️ Dễ dàng mở rộng
+✔️ Tối ưu quản lý dữ liệu
+✔️ Hỗ trợ quản lý quán cafe hiệu quả
 
 ---
 
@@ -187,7 +193,7 @@ php artisan serve
 
 ## Bùi Tiến Đạt
 
-📧 Developer Laravel & Web Application
+💻 Laravel Developer
 
 ```
 ```
