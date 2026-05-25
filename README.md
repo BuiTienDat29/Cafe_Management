@@ -1,107 +1,107 @@
+````md
 # ☕ Cafe Management System
 
-Hệ thống quản lý quán cafe được xây dựng bằng framework Laravel nhằm hỗ trợ quản lý hoạt động bán hàng, sản phẩm, đơn hàng và nhân viên trong quán cafe một cách hiệu quả và hiện đại.
+<p align="center">
+  <img src="https://laravel.com/img/logomark.min.svg" width="120" alt="Laravel Logo">
+</p>
+
+<h3 align="center">
+  🚀 Website Quản Lý Quán Cafe Xây Dựng Bằng Laravel
+</h3>
+
+<p align="center">
+  Hệ thống hỗ trợ quản lý hoạt động quán cafe hiện đại, trực quan và tối ưu hiệu suất.
+</p>
 
 ---
 
-# 📌 Giới thiệu dự án
+# 📌 Giới Thiệu Dự Án
 
-Cafe Management System là website quản lý quán cafe hỗ trợ:
+Cafe Management System là website quản lý quán cafe được xây dựng nhằm hỗ trợ:
 
-* Quản lý sản phẩm / menu
-* Quản lý danh mục món ăn & đồ uống
-* Quản lý đơn hàng
-* Quản lý bàn
-* Quản lý khách hàng
-* Quản lý nhân viên
-* Thống kê doanh thu
-* Phân quyền quản trị
-* Giao diện quản trị trực quan
+✨ Quản lý sản phẩm  
+✨ Quản lý menu đồ uống  
+✨ Quản lý đơn hàng  
+✨ Quản lý bàn  
+✨ Quản lý khách hàng  
+✨ Quản lý nhân viên  
+✨ Thống kê doanh thu  
+✨ Phân quyền quản trị  
 
-Hệ thống được xây dựng theo mô hình MVC sử dụng Laravel kết hợp MySQL nhằm đảm bảo khả năng mở rộng, bảo trì và tối ưu hiệu suất.
-
----
-
-# 🚀 Công nghệ sử dụng
-
-## Backend
-
-* PHP
-* Laravel
-* RESTful API
-* Eloquent ORM
-
-## Frontend
-
-* Blade Template
-* HTML5
-* CSS3
-* JavaScript
-* Bootstrap
-
-## Database
-
-* MySQL
-
-## Công cụ hỗ trợ
-
-* Composer
-* Git & GitHub
-* XAMPP / Laragon
+Hệ thống được phát triển theo mô hình **MVC (Model - View - Controller)** sử dụng framework Laravel kết hợp MySQL giúp dễ dàng mở rộng và bảo trì.
 
 ---
 
-# ⚙️ Chức năng chính
+# 🛠️ Công Nghệ Sử Dụng
 
-## 👨‍💼 Quản trị hệ thống
+<p align="center">
 
-* Đăng nhập / đăng xuất
-* Phân quyền người dùng
-* Quản lý tài khoản nhân viên
+<img src="https://skillicons.dev/icons?i=laravel,php,mysql,bootstrap,html,css,js,git,github,vscode" />
 
-## 🍹 Quản lý sản phẩm
+</p>
 
-* Thêm / sửa / xóa sản phẩm
-* Quản lý giá bán
-* Quản lý hình ảnh sản phẩm
-* Quản lý danh mục
-
-## 🪑 Quản lý bàn
-
-* Theo dõi trạng thái bàn
-* Đặt bàn
-* Chuyển bàn
-
-## 🧾 Quản lý đơn hàng
-
-* Tạo hóa đơn
-* Thanh toán đơn hàng
-* Theo dõi lịch sử giao dịch
-
-## 📊 Thống kê
-
-* Doanh thu theo ngày / tháng / năm
-* Thống kê sản phẩm bán chạy
+| Công nghệ | Mô tả |
+|---|---|
+| Laravel | PHP Framework |
+| MySQL | Hệ quản trị cơ sở dữ liệu |
+| Bootstrap | Thiết kế giao diện |
+| JavaScript | Xử lý tương tác |
+| Git & GitHub | Quản lý source code |
 
 ---
 
-# 🏗️ Kiến trúc hệ thống
+# ⚙️ Chức Năng Chính
+
+## 👨‍💼 Quản Trị Hệ Thống
+- Đăng nhập / đăng xuất
+- Phân quyền người dùng
+- Quản lý tài khoản nhân viên
+
+## 🍹 Quản Lý Sản Phẩm
+- Thêm / sửa / xóa sản phẩm
+- Quản lý giá bán
+- Quản lý hình ảnh sản phẩm
+- Quản lý danh mục
+
+## 🪑 Quản Lý Bàn
+- Theo dõi trạng thái bàn
+- Đặt bàn
+- Chuyển bàn
+
+## 🧾 Quản Lý Đơn Hàng
+- Tạo hóa đơn
+- Thanh toán đơn hàng
+- Theo dõi lịch sử giao dịch
+
+## 📊 Thống Kê Doanh Thu
+- Doanh thu theo ngày / tháng / năm
+- Thống kê sản phẩm bán chạy
+- Báo cáo doanh thu
+
+---
+
+# 🏗️ Kiến Trúc Hệ Thống
 
 Dự án được xây dựng theo mô hình:
 
-* MVC (Model - View - Controller)
-* Client - Server Architecture
+```bash
+MVC (Model - View - Controller)
+Client - Server Architecture
+````
 
-Cấu trúc chính:
+## 📂 Cấu Trúc Thư Mục
 
-```bash id="t0w8sw"
+```bash
 app/
 ├── Http/
 │   ├── Controllers/
 │   └── Middleware/
+
 ├── Models/
+
 resources/
 ├── views/
+
 routes/
 database/
 public/
@@ -109,39 +109,39 @@ public/
 
 ---
 
-# 🛠️ Cài đặt dự án
+# 🚀 Hướng Dẫn Cài Đặt
 
-## 1. Clone project
+## 1️⃣ Clone Project
 
-```bash id="fzppl2"
+```bash
 git clone https://github.com/BuiTienDat29/Cafe_Management.git
 ```
 
-## 2. Di chuyển vào thư mục dự án
+## 2️⃣ Di Chuyển Vào Thư Mục Dự Án
 
-```bash id="0z1h48"
+```bash
 cd Cafe_Management
 ```
 
-## 3. Cài đặt thư viện
+## 3️⃣ Cài Đặt Thư Viện
 
-```bash id="0s2w3g"
+```bash
 composer install
 ```
 
-## 4. Tạo file môi trường
+## 4️⃣ Tạo File `.env`
 
-```bash id="oj74zc"
+```bash
 cp .env.example .env
 ```
 
-## 5. Generate app key
+## 5️⃣ Generate App Key
 
-```bash id="jlwmg6"
+```bash
 php artisan key:generate
 ```
 
-## 6. Cấu hình database trong file `.env`
+## 6️⃣ Cấu Hình Database
 
 ```env
 DB_DATABASE=cafe_management
@@ -149,32 +149,45 @@ DB_USERNAME=root
 DB_PASSWORD=
 ```
 
-## 7. Chạy migration
+## 7️⃣ Chạy Migration
 
-```bash id="a3jlwm"
+```bash
 php artisan migrate
 ```
 
-## 8. Khởi động server
+## 8️⃣ Khởi Động Server
 
-```bash id="06yz5h"
+```bash
 php artisan serve
 ```
 
 ---
 
-# 📷 Một số giao diện hệ thống
+# 📸 Giao Diện Hệ Thống
 
-* Trang đăng nhập
-* Dashboard quản trị
-* Quản lý sản phẩm
-* Quản lý đơn hàng
-* Thống kê doanh thu
+✅ Trang đăng nhập
+✅ Dashboard quản trị
+✅ Quản lý sản phẩm
+✅ Quản lý đơn hàng
+✅ Thống kê doanh thu
 
 ---
 
-# 👨‍💻 Tác giả
+# 🌟 Điểm Nổi Bật
 
-* Bùi Tiến Đạt
+✔️ Giao diện quản trị trực quan
+✔️ Dễ dàng mở rộng tính năng
+✔️ Chuẩn mô hình MVC
+✔️ Quản lý dữ liệu hiệu quả
+✔️ Tối ưu trải nghiệm người dùng
 
+---
 
+# 👨‍💻 Tác Giả
+
+## Bùi Tiến Đạt
+
+📧 Developer Laravel & Web Application
+
+```
+```
