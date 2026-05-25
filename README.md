@@ -1,4 +1,3 @@
-````md id="r4tx4d"
 # ☕ Cafe Management System
 
 <div align="center">
@@ -9,38 +8,19 @@
 
 <br>
 
-<img src="https://cdn.worldvectorlogo.com/logos/laravel-2.svg" width="120">
+![Laravel](https://img.shields.io/badge/Laravel-v12-red?style=for-the-badge&logo=laravel&logoColor=white)
 
-<br><br>
+![PHP](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php&logoColor=white)
 
-![Laravel](https://img.shields.io/badge/Laravel-Framework-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-Backend-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-UI-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+
 ![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 
----
-
-# 📌 Giới Thiệu Dự Án
-
-Cafe Management System là website hỗ trợ quản lý quán cafe hiện đại giúp tối ưu quy trình vận hành và quản lý kinh doanh.
-
-Hệ thống hỗ trợ:
-
-- ☕ Quản lý menu đồ uống
-- 🧾 Quản lý đơn hàng
-- 🪑 Quản lý bàn
-- 👨‍💼 Quản lý nhân viên
-- 👥 Quản lý khách hàng
-- 📊 Thống kê doanh thu
-- 🔐 Phân quyền quản trị
-
-Dự án được phát triển theo mô hình:
-
-```bash
-MVC (Model - View - Controller)
+---- Controller)
 ````
 
 Sử dụng framework Laravel kết hợp MySQL giúp hệ thống dễ mở rộng và bảo trì.
