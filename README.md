@@ -177,8 +177,4 @@ php artisan serve
 
 * Bùi Tiến Đạt
 
----
 
-# 📄 Giấy phép
-
-Dự án phục vụ mục đích học tập, nghiên cứu và phát triển hệ thống quản lý quán cafe bằng Laravel.
